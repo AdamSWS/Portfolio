@@ -12,6 +12,18 @@
     z-index: -1;
 }
 
+.sub-title {
+    font-size: 50px;
+    text-align: center;
+    color: #FFF;
+}
+
+.title {
+    font-size: 100px;
+    text-align: center;
+    color: #FFF;
+}
+
 nav {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.9);
 }
