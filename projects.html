@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="projects.css" />
     <title>Adam Shaar's Portfolio</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -19,7 +18,13 @@
     <nav class="navbar navbar-expand-lg navbar-color sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand logo" href="#"
-          ><img src="/images/chicago_star.png" alt="Logo" width="20" class="d-inline-block align-text-top"> Adam <span class="logo2">Shaar</span></a
+          ><img
+            src="/images/chicago_star.png"
+            alt="Logo"
+            width="20"
+            class="d-inline-block align-text-top"
+          />
+          Adam <span class="logo2">Shaar</span></a
         >
         <button
           class="navbar-toggler"
@@ -35,10 +40,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="btn btn-primary" href="home.html" >Home</a>
+              <a class="btn btn-primary" href="home.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-primary disabled" href="#" aria-disabled="true">Projects</a>
+              <a class="btn btn-primary disabled" href="#" aria-disabled="true"
+                >Projects</a
+              >
             </li>
             <li class="nav-item dropdown">
               <a
@@ -51,45 +58,69 @@
                 Downloads
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/downloads/Adam_Shaar_Resume_Soft_Copy_.pdf" download>Resume</a></li>
-                <li><a class="dropdown-item" href="/downloads/Unoffical_Transcripts_Adam_Shaar_2023_.pdf" download>Transcripts</a></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="/downloads/Adam_Shaar_Resume_Soft_Copy_.pdf"
+                    download
+                    >Resume</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="/downloads/Unoffical_Transcripts_Adam_Shaar_2023_.pdf"
+                    download
+                    >Transcripts</a
+                  >
+                </li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="btn btn-primary" href="mailto:a.swshaar@gmail.com">Email</a>
+              <a class="btn btn-primary" href="mailto:a.swshaar@gmail.com"
+                >Email</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <div>
-        <h1 class="title"><u>Projects</u></h1>
-        <p class="sub-title">Click on the "Get Code" button to go to my Github Repo!</p>
+      <h1 class="title"><u>Projects</u></h1>
+      <p class="sub-title">
+        Click on the "Get Code" button to go to my Github Repo!
+      </p>
     </div>
-    <div class="container text-center">
-        <div class="row row-cols-2">
-          <div class="col d-flex justify-content-center">
-            <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
-                <img src="/images/UnitConverter.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Unit Converter</h5>
-                  <p class="card-text">A simple console-based unit converter written in C++, designed to convert units of measurement such as distance, weight, and volume from one form to another.</p>
-                  <a href="https://github.com/AdamSWS/UnitConverter" class="btn btn-primary">Get Code</a>
-                </div>
-              </div>
+    <div class="d-flex justify-content-center align-items-center">
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card h-100 d-flex flex-column my-10" style="width: 30rem">
+            <img
+              src="/images/Simple-C-Parser.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Simple-C-Parser</h5>
+              <p class="card-text">
+                Language parser for SimpleC made in F# to ensure input follows
+                language format.
+              </p>
+              <a
+                href="https://github.com/AdamSWS/Simple-C-Parser"
+                class="btn btn-primary"
+                >Get Code</a
+              >
+            </div>
           </div>
-          <div class="col d-flex justify-content-center">
-            <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
-                <img src="/images/Simple-C-Parser.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Simple-C-Parser</h5>
-                  <p class="card-text">Language parser for SimpleC made in F# to ensure input follows language format.</p>
-                  <a href="https://github.com/AdamSWS/Simple-C-Parser" class="btn btn-primary">Get Code</a>
-                </div>
-              </div>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
+        </div>
+        <div class="carousel-item">
+          <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
                 <img src="/images/BFS-DFS-Algorithms.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">BFS-DFS-Algorithms</h5>
@@ -97,9 +128,9 @@
                   <a href="https://github.com/AdamSWS/BFS-DFS-Algorithms" class="btn btn-primary">Get Code</a>
                 </div>
               </div>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
+        </div>
+        <div class="carousel-item">
+          <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
                 <img src="/images/IDA-Star-Search-Algorithm.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">IDA-Star-Search-Algorithm</h5>
@@ -107,9 +138,9 @@
                   <a href="https://github.com/AdamSWS/IDA-Star-Search-Algorithm" class="btn btn-primary">Get Code</a>
                 </div>
               </div>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
+        </div>
+        <div class="carousel-item">
+          <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
                 <img src="/images/Coffee-Shop-App.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Coffee-Shop-App</h5>
@@ -117,9 +148,9 @@
                   <a href="https://github.com/AdamSWS/Coffee-Shop-App---Decorator-Design-Pattern" class="btn btn-primary">Get Code</a>
                 </div>
               </div>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
+        </div>
+        <div class="carousel-item">
+          <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
                 <img src="/images/Movie-Lens-App.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">MovieLens-App</h5>
@@ -127,9 +158,9 @@
                   <a href="https://github.com/AdamSWS/MovieLens-App" class="btn btn-primary">Get Code</a>
                 </div>
               </div>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
+        </div>
+        <div class="carousel-item">
+          <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
                 <img src="/images/PPM-Image-Processor.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">PPM-Image-Processor</h5>
@@ -137,9 +168,9 @@
                   <a href="https://github.com/AdamSWS/PPM-Image-Processor" class="btn btn-primary">Get Code</a>
                 </div>
               </div>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
+        </div>
+        <div class="carousel-item">
+          <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
                 <img src="/images/Markov-Descision-Process.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Markov-Descion-Process</h5>
@@ -147,9 +178,9 @@
                   <a href="https://github.com/AdamSWS/Markov-Descion-Process" class="btn btn-primary">Get Code</a>
                 </div>
               </div>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
+        </div>
+        <div class="carousel-item">
+          <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
                 <img src="images/Sliding-Block-Puzzle.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Sliding-Block-Puzzle</h5>
@@ -157,9 +188,9 @@
                   <a href="https://github.com/AdamSWS/Sliding-Block-Puzzle" class="btn btn-primary">Get Code</a>
                 </div>
               </div>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
+        </div>
+        <div class="carousel-item">
+          <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
                 <img src="images/Huffman-Compression.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Huffman-Compression</h5>
@@ -167,9 +198,9 @@
                   <a href="https://github.com/AdamSWS/Huffman-Compression" class="btn btn-primary">Get Code</a>
                 </div>
               </div>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
+        </div>
+        <div class="carousel-item">
+          <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
                 <img src="images/New-York-Times-Spelling-Bee.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">New-York-Times-Spelling-Bee</h5>
@@ -177,19 +208,37 @@
                   <a href="https://github.com/AdamSWS/New-York-Times-Spelling-Bee" class="btn btn-primary">Get Code</a>
                 </div>
               </div>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
+        </div>
+        <div class="carousel-item">
+          <div class="card h-100 d-flex flex-column my-10" style="width: 30rem;">
                 <img src="images/Logistic-Regression-Algorithm.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Logistic-Regression-Algorithm</h5>
                   <p class="card-text">This python script is an implementation of Logistic Regression for spam detection, using gradient descent for optimization with cross-entropy loss and L2 regularization.</p>
-                  <a href="#" class="btn btn-primary">Get Code</a>
+                  <a href="https://github.com/AdamSWS/Logistic-Regression-Algorithm" class="btn btn-primary">Get Code</a>
                 </div>
               </div>
-          </div>
         </div>
       </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden-focusable">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden-focusable">Next</span>
+      </button>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
